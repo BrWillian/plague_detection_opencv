@@ -1,0 +1,1 @@
+from PlagueDetection.plague_detection import PlagueDetection
