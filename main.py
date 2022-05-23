@@ -8,7 +8,10 @@ def main():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument('--sensitivity', type=int, help='Sensibilidade do detector', default=30)
-    parser.add_argument('--circles', type=bool, help='Desenhar ou não circulo nas detecções', default=False)
+    parser.add_argument('--circles', dest='circles', action='store_true', help='Desenhar circulo nas detecções')
+    parser.add_argument('--no-circles', dest='circles', action='store_false', help='Não desenhar circulo nas detecções')
+    parser.set_defaults(circles=False)
+
     parser.add_argument('--image', type=str, help='Caminho da imagem', required=True)
 
     args = parser.parse_args()
