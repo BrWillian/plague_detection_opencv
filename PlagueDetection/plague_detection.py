@@ -14,7 +14,8 @@ class PlagueDetection:
         self._with_circles = kwargs.get("circles") if kwargs.get("circles") else False
         self._save_result = kwargs.get("save") if kwargs.get("save") else False
 
-    def preprocess_image(self, img):
+    @staticmethod
+    def preprocess_image(img):
         '''
             Blurs image and converts to HSV color scale for better detection of the weeds
         '''
@@ -108,3 +109,7 @@ class PlagueDetection:
     def show_image(img):
         cv2.imshow('nome', img)
         cv2.waitKey(0)
+
+    @staticmethod
+    def save_image(filename, img):
+        cv2.imwrite(filename, img)
