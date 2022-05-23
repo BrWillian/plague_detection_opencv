@@ -52,13 +52,13 @@ optional arguments:
 ### Exemplos de imagens
 * As imagens utilizadas neste projeto foram imagens disponibilizadas pela empresa [Solinftec](https://www.solinftec.com/pt-br/), portanto todos direitos reservados a eles.
 
-> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/data/mato-grosso.jpeg?raw=true" width="250" hspace="50" >
-> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/data/aracatuba.jpg?raw=true" width="330">
+> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/data/mato-grosso.jpeg?raw=true" width="350" hspace="50" >
+> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/data/aracatuba.jpg?raw=true" width="465">
 > <p align="center">Exemplos de entrada.</p>
 
 
-> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/output/mato-grosso_filled.jpg?raw=true" hspace="50" width="250">
-> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/output/aracatuba_circle.jpg?raw=true" width="330"><p>
+> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/output/mato-grosso_filled.jpg?raw=true" hspace="50" width="350">
+> <img src="https://github.com/BrWillian/plague_detection_opencv/blob/master/output/aracatuba_circle.jpg?raw=true" width="465"><p>
 > <p align="center">Exemplo de saída sem círculos e com círculos</p>
 
 * Na pasta data/ segue os exemplos utilizados no teste.
