@@ -1,14 +1,14 @@
 # Detecção de pragas
 
-Bem-vindo/a ao repositorio contendo esse projeto.  
+Bem-vindo/a ao repositório contendo esse projeto.  
 
 ## :scroll: Sobre o projeto
-O teste consiste em detectar, enumerar e recriar mascara para as pragas nas plantações.
+O teste consiste em detectar, enumerar e recriar máscara para as pragas nas plantações.
 
 ## :clipboard: Requisitos
 
 ### Requisitos obrigatórios
-Este repositorio contêm requisitos necessários para estruturação do projeto.
+Este repositório contêm requisitos necessários para estruturação do projeto.
 
 * Documentação
   * Instruções de instalação, inicialização.
